@@ -13,6 +13,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/logo3.ico" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="style.css" />
+
     <title>
       Beview - A Decentralized Blockchain Products & Services Review Platform
     </title>
@@ -21,13 +22,24 @@
     <div class="container">
       <header>
         <nav>
-          <img src="https://beview.co/assets/img/logo3.png" alt="Logo" />
-          <div id="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#product">Product</a>
-            <a href="#roadmap">Roadmap</a>
-            <a href="#contact">Contact</a>
+          <div>
+            <a
+              ><img src="https://beview.co/assets/img/logo3.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="nav-container">
+            <ul id="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#roadmaps">Roadmaps</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="menu" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </nav>
       </header>
@@ -111,7 +123,7 @@
           <div>
             <img src="assets/World.png" alt="world" />
           </div>
-          <div class="future">
+          <div class="future" id="about">
             <h2>The Future of Cryptography is Social</h2>
             <p>
               Beview is a decentralized community of blockchain users. Beview
@@ -122,6 +134,7 @@
             </p>
           </div>
         </section>
+        <div id="product"></div>
         <section class="fifth-section">
           <h3>Blockchain Reward System</h3>
           <p>
@@ -153,7 +166,8 @@
         </section>
 
         <!-- https://codepen.io/alvarotrigo/pen/jOGNrrN -->
-        <section id="roadmaps">
+        <div id="roadmaps"></div>
+        <section class="roadmaps">
           <h2>Roadmaps</h2>
           <div class="wrapper">
             <div class="center-line"></div>
@@ -250,7 +264,7 @@
             </div>
           </div>
         </section>
-        <section class="six">
+        <section class="six" id="contact">
           <div class="sixth-section">
             <div class="contact-p-container">
               <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -295,12 +309,12 @@
         </div>
       </footer>
 
+      <script src="particles.js"></script>
+      <script src="app.js"></script>
       <script
         src="https://kit.fontawesome.com/765f896dfb.js"
         crossorigin="anonymous"
       ></script>
-      <script src="particles.js"></script>
-      <script src="app.js"></script>
     </div>
   </body>
 </html>
