@@ -546,6 +546,11 @@ width: 2.5rem;
     }
 }
 @media (min-width: 900px) {
+    .third-section{
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
     .btn-container{
         display: flex;
         flex-direction: row;
