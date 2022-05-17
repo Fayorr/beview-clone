@@ -3,13 +3,16 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+/* Responsive navBar starts*/
 
 :root {
     --nav-bg: #03000e;
     --main-clr: dodgerblue;
     --nav-shadow: 0px 3px var(--main-clr);
 }
-
+.container{
+    padding: 0 1rem;
+}
 nav {
     display: flex;
     align-items: center;
@@ -127,8 +130,7 @@ nav .menu.active span:nth-child(2) {
         text-transform: capitalize;
     }
 }
-
-
+/* Responsive navBar starts*/
 
 html {
     scroll-behavior: smooth;
@@ -141,7 +143,7 @@ nav{
 top: 0%;
 left: 0%;
 background-color: #1E2739;
-z-index: 9999;
+z-index: 20;
 padding: .7rem;
 }
 nav img{
@@ -167,17 +169,13 @@ nav img{
 .button-container{
     display: flex;
     justify-content: flex-start;
-    /* background-color: red; */
-    /* width: 25rem; */
 }
  .btn{
   margin: 1rem 0;
   padding: 1rem;
-  /* background-color: red; */
   text-align: center;
   width: 10rem;
   border-radius: 2rem;
-  /* max-height: 3rem; */
 } 
 .btn-orange{
     background-color: #FFAA17;
@@ -385,22 +383,7 @@ color: #fff;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* roadMap Styles starts */
 
 ::selection {
     color: #fff;
@@ -530,6 +513,7 @@ li{
 }
 
 /* roadmap style ends here */
+
 .six{
     margin-top: 9rem;
 }
@@ -537,7 +521,6 @@ li{
     width: 90%;
 }
 .sixth-section{
-  /* border: 1px solid #AAB2CD; */
     width: 90%;
     margin: 0 auto;
     height: 30rem;
@@ -573,7 +556,6 @@ s.contact-p, .contact-i, .contact-m {
 .contact-p-container{
     height: 4rem;
 }
-
 
 footer{
     color: #fff;
