@@ -750,6 +750,9 @@ width: 2.5rem;
     .wrapper .row {
         margin: 10px 0;
     }
+    .btn-three{
+        height: 16rem;
+    }
 }
 @media(max-width: 790px){
     .wrapper .center-line {
