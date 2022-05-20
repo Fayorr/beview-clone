@@ -19,6 +19,7 @@ nav {
     justify-content: space-around;
     position: fixed;
     width: 100%;
+  
     
 }
 
@@ -144,10 +145,15 @@ top: 0%;
 left: 0%;
 background-color: #1E2739;
 z-index: 20;
-padding: .7rem;
+padding: .7rem 0;
 }
+
 nav img{
-    width: 9vw;
+    width: 3rem;
+    margin-left: -2.9rem;
+}
+nav .menu{
+    margin-right: -2.9rem;
 }
 
 .first-section{
