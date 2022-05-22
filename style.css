@@ -729,6 +729,9 @@ width: 2.5rem;
     .future{
         width: 40%;
     }
+  .row-1 ul, .row-2 ul{
+      padding: 0 0.8rem;
+  }
     .sixth-section{
         width: 45%;
         height: 29rem;
