@@ -111,7 +111,7 @@ nav .menu.active span:nth-child(2) {
         position: absolute;
         width: 100%;
         left: 0;
-        top: 56px;
+        top: 75px;
         height: var(--height);
         transition: 1s cubic-bezier(.68, -0.55, .27, 1.55);
     }
