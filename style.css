@@ -26,7 +26,6 @@ nav {
 nav ul {
     --padding: .8rem;
     --font-size: 17px;
-
     list-style: none;
     display: flex;
     align-items: center;
@@ -131,7 +130,7 @@ nav .menu.active span:nth-child(2) {
         text-transform: capitalize;
     }
 }
-/* Responsive navBar starts*/
+/* Responsive navBar ends*/
 
 html {
     scroll-behavior: smooth;
