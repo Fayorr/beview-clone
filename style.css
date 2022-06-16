@@ -19,8 +19,11 @@ nav {
     justify-content: space-around;
     position: fixed;
     width: 100%;
-  
-    
+    z-index: 20;
+    background-color: #1E2739;
+    top: 0%;
+    left: 0%;
+    padding: .8rem 0;
 }
 
 nav ul {
@@ -40,6 +43,7 @@ nav ul li a {
     position: relative;
 }
 
+/* blue transition on nave links */
 nav ul li a::after {
     content: "";
     width: 0%;
@@ -51,7 +55,7 @@ nav ul li a::after {
     left: 0;
     transition: 0.3s ease;
 }
-
+/* at full transition */
 nav ul li a:hover::after {
     width: 100%;
 }
@@ -77,9 +81,6 @@ nav .menu span {
     transform-origin: left;
 }
 
-nav .menu.active span {
-    background: #fff;
-}
 
 nav .menu.active span:nth-child(1) {
     transform: rotate(40deg);
@@ -116,7 +117,8 @@ nav .menu.active span:nth-child(2) {
     }
 
     nav ul.active {
-        --height: calc((((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber));
+        --height: calc((((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber)); 
+    
         transition: 1s ease;
     }
 
@@ -139,13 +141,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     background-color: #151C2B;
 }
-nav{
-top: 0%;
-left: 0%;
-background-color: #1E2739;
-z-index: 20;
-padding: .8rem 0;
-}
+
 
 nav img{
     width: 2.7rem;
